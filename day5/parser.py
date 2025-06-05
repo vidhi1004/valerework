@@ -25,12 +25,14 @@ def csv_parsing():
             with open(file_path, mode) as f:
 
                 if mode == "r":
-                    logging.info(f"User selected {file_path} to read")
+                    logging.info(f"User selected {file_path} to access "
+                                 "it in reading mode")
                     data = csv.reader(f)
                     for row in data:
                         print(row)
                 elif mode == 'w':
-                    logging.info(f"User selected {file_path} to write")
+                    logging.info(f"User selected {file_path} to "
+                                 "access it in writing mode")
                     data = csv.writer(f)
                     print("Please a key")
                     print("1.Adding single row")

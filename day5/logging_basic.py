@@ -22,12 +22,13 @@ while True:
     if tasknum == 1:
         logging.info("User is adding the student")
         name = input("Enter the name of the student :")
-        logging.debug("User added name :{name}")
+        logging.debug(f"User added name :{name}")
         marksphy = int(input("enter the marks of physics :"))
         marksm = int(input("enter the marks of maths :"))
         marksen = int(input("enter the marks of english :"))
         markshi = int(input("enter the marks of hindi :"))
-        logging.info(f"{name}'s marks are phy: {marksphy}, Maths: {marksm}, English: {marksen}, Hindi: {markshi}")
+        logging.info(f"{name}'s marks are phy: {marksphy}, Maths: {marksm},"
+                     f"English: {marksen}, Hindi: {markshi}")
 
         student.update({name: {"phy": marksphy,
                                "maths": marksm,
@@ -42,11 +43,11 @@ while True:
         print(student)
 
     elif tasknum == 3:
-        logging.warning("User is remov.ing a particular student")
+        logging.warning("User is removing a particular student")
         name = input("enter the student name who's data you want to delete :")
         if name in student:
             student.pop(name)
-            logging.info("Student named {name} is removed")
+            logging.info(f"Student named {name} is removed")
             print("student removed successfully")
         else:
             logging.error("Student not found")

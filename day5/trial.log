@@ -1,19 +1,13 @@
-2025-06-05 13:41:55,983: INFO: The Starting of system
-2025-06-05 13:42:12,265: INFO: User entered key 1
-2025-06-05 13:42:12,266: INFO: User is adding the student
-2025-06-05 13:42:27,173: DEBUG: User added name :{name}
-2025-06-05 13:42:34,407: INFO: student 1's marks are phy: 30, Maths: 40, English: 50, Hindi: 60
-2025-06-05 13:42:34,407: INFO: Student added successfully
-2025-06-05 13:42:42,126: INFO: User entered key 3
-2025-06-05 13:42:42,126: WARNING: User is removing a particular student
-2025-06-05 13:42:46,940: ERROR: Student not found
-2025-06-05 13:42:57,557: INFO: User entered key 4
-2025-06-05 13:43:04,766: WARNING: User wants to change the marks
-2025-06-05 13:43:23,613: WARNING: user is changing student 1's marks of hindi
-2025-06-05 13:43:27,899: INFO: student 1's hindi marks changed to 50
-2025-06-05 13:43:39,497: INFO: User entered key 5
-2025-06-05 13:43:39,499: INFO: User is viewing all the entries
-2025-06-05 13:44:15,112: INFO: User entered key 2
-2025-06-05 13:44:15,113: WARNING: User deleted whole record
-2025-06-05 13:44:17,510: INFO: User entered key 6
-2025-06-05 13:44:17,510: WARNING: Exiting
+2025-06-05 22:54:06,707: INFO: The Starting of system
+2025-06-05 22:54:09,722: INFO: User entered key 1
+2025-06-05 22:54:09,722: INFO: User is adding the student
+2025-06-05 22:54:14,996: DEBUG: User added name :{name}
+2025-06-05 22:54:24,591: INFO: student q's marks are phy: 49, Maths: 46,English: {marksen}, Hindi: {markshi}
+2025-06-05 22:54:24,592: INFO: Student added successfully
+2025-06-05 22:54:27,005: INFO: User entered key 5
+2025-06-05 22:54:27,013: INFO: User is viewing all the entries
+2025-06-05 22:54:46,398: INFO: User entered key 3
+2025-06-05 22:54:46,398: WARNING: User is remov.ing a particular student
+2025-06-05 22:54:51,930: ERROR: Student not found
+2025-06-05 22:54:59,901: INFO: User entered key 6
+2025-06-05 22:54:59,901: WARNING: Exiting
