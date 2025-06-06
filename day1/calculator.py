@@ -1,6 +1,6 @@
-num1 = int(input("Enter number 1 :"))
+num1 = float(input("Enter number 1 :"))
 op = input("Enter opertator :")
-num2 = int(input("Enter number 2 :"))
+num2 = float(input("Enter number 2 :"))
 
 if (op == '+'):
     print("Result is:", num1 + num2)
@@ -9,8 +9,14 @@ elif (op == '-'):
 elif (op == '*'):
     print("Result is:", num1 * num2)
 elif (op == '/'):
-    print("Result is:", num1 / num2)
+    if num2 != 0:
+        print("Result is:", num1 / num2)
+    else:
+        print("Error.")
 elif (op == '%'):
-    print("Result is:", num1 % num2)
+    if num2 != 0:
+        print("Result is:", num1 % num2)
+    else:
+        print("Error.")
 else:
     print('invalid opertator')
