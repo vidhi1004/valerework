@@ -1,8 +1,8 @@
 import pandas as pd
 
 student = {
-   # "student 1":{"phy":30,"maths":40,"english":50,"hindi":60},
-   # "student 2":{"phy":40,"maths":30,"english":45,"hindi":60},
+    # "student 1":{"phy":30,"maths":40,"english":50,"hindi":60},
+    # "student 2":{"phy":40,"maths":30,"english":45,"hindi":60},
 }
 while True:
     print("For the specific task enter the following number : ")

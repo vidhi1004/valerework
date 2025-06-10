@@ -2,7 +2,7 @@ num2 = int(input("Enter the number to check :"))
 
 
 def primenum(num):
-    if num == 1:
+    if num <= 1:
         return False
     if num == 2:
         return True
