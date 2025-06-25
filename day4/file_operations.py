@@ -51,6 +51,7 @@ mydict = {
     "number": 23456786456
 }
 
+
 data = json.dumps(mydict)
 print(data)
 

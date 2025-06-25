@@ -1,0 +1,19 @@
+<div class="bgc">
+  <div class="container">
+    <div class="header">
+      <h1><span class="l">L</span>OGIN</h1>
+    </div>
+    <form method ='POST'>
+        {%csrf_token%}
+      <label for="email">Email</label>
+      <input type="text" class="inp" name="email" required>
+      <label for="password">Password</label>
+      <input type="password" class="inp" name="password" required>
+      <button type="submit">Enter</button>
+    </form>
+    <div class="signup">
+      <b>Don't have account?</b>
+      <a href="{% url 'signup' %}">SignUp</a>
+    </div>
+  </div>
+</div>
